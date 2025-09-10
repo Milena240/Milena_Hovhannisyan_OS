@@ -1,0 +1,21 @@
+Assignment 1: 
+First we declare and initialize a variable with value 12 and name "value".
+Then, we declare a pointer, which keeps the address of the variable "value", basically where is the "value" on memory. 
+Then we print the address of "value" by just using reference, and we print the address of the value by pointer, which is the same as the reference. 
+After which we change the value of "value", by pointer, accessing the value with *. 
+At the end, printing the updated value.
+
+Assignment 2: 
+We declare array with size 5 and name "array". Then fill the array with some values with help of for loop.
+With the next loop, we traverse over the array and print each value by pointer. At first, count = 0, and we print *array, which is the first element of the array, then, count = 1, we add 1 (which is 4 byte for int) and the pointer moves 4 byte right, which is the next value of the array, and prints it, so on.
+With the next for, we access the value as i described before and increments the value by 1. Then print the value.
+And the last one is just printing the values of the array by array name and index.
+
+Assignment 3:
+We declare and initialize two variables. The swap function gets an argument pointer of integers. The the function, using temp variable we just swap the values, accessing pointers value with *. And when we call the funstion swap, we pass the references of variables, so pointers would take them. 
+
+Assignment 4:
+Declare and initialize integer variable. Then we make pointer, which points to the "value" and this pointer has its own address in the memory, so we can create a new pointer, which can point to the address of the pointer, which points to the "value", so we get double-pointer. And we print the value 12 with help of two pointes.
+
+Assignment 5:
+We declare array of character. Array name is itself a pointer, which points to the first element of the array. So, for declaring a pointer which will point to the array, we just write the array name. Then I initialized count variable, to keep track of count. The condition for the loop is until te value in the array is '\0', which is the last value of character array. So until the end of the array, we print the current value and add the pointer value by one, which goes to the next value of the array. After printing the whole array, which is the string Hello, we also print the count, which we incremented each time we added the pointer value, so the counter shows the number of words. 
